@@ -199,6 +199,7 @@ class GoalManager
     {
         ListGoals();
         Console.Write("Which goal did you accomplish? ");
+
         int index = int.Parse(Console.ReadLine()) - 1;
         if (index >= 0 && index < _goals.Count)
         {
